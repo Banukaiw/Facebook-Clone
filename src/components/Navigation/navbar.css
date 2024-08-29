@@ -31,7 +31,8 @@
     margin-left: 10px;
     font-weight: bold;
     color: white;
-   cursor: pointer;
+    cursor: pointer;
+    font-family: 'Klavika';
 }
 
 .profilePicImg{
@@ -95,12 +96,13 @@
 }
 
 .iconTag{
-    width: 10px;
-    height: 10px;
+    width: 15px;
+    height: 15px;
     background-color: red;
     color: white;
     position: absolute;
     border-radius: 50%;
-    top: -10px;
-   
+    top: -5px;
+    justify-content: center;
+
 }
