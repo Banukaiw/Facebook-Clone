@@ -2,3 +2,29 @@
     background-color: red;
     flex: 2;
 }
+
+.leftpanecontainer{
+    padding: 20px;
+}
+
+.leftpanemenu{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.leftPaneMenuItem{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.leftpaemenuIcon{
+    margin-right: 20px;
+}
+
+.pagepic{
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+}
