@@ -1,30 +1,37 @@
 .navBarBox{
-    height: 50px;
+    height: 60px;
     width: 100%;
-    background: #1877F2;
+    background: #ffffff;
     display: flex;
     align-items: center;
     position: sticky;
     top: 0;
+    padding: 0% 0% 0% 0%;
+    
+    
 }
+
+.logoIcon img{
+    width: 40px;
+    height: auto;
+    object-fit: cover;
+    border-radius: 50%;
+    
+}
+
+
 
 .navBarLeft{
     flex: 3;
-    
-}
-
-.navBarCenter{
-    flex: 5;
-    
-}
-
-.navBarRight{
-    flex: 4;
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    color: white;
+    gap: 2%;
+    margin-left: 1.5%;
+    
 }
+
+
+
 
 .logo{
     font-size: 35px;
@@ -35,22 +42,15 @@
     font-family: 'Klavika';
 }
 
-.profilePicImg{
-    width: 39px;
-    height: 39px;
-    object-fit: cover;
-    border-radius: 50%;
-    right: 0;
-    margin-right: 10px;
-}
 
 .searchBarBox{
-    width: 100%;
-    height: 30px;
-    background-color: white;
+    width: 62%;
+    height: 40px;
+    background-color: rgb(238, 238, 238);
     display: flex;
     border-radius: 30px;
     align-items: center;
+    
 }
 
 
@@ -61,26 +61,89 @@
 .searchInput{
     border: none;
     width: 80%;
+    background-color: rgb(238, 238, 238);
+    font-size: 15px;
+    
 }
 
 .searchInput:focus{
     outline: none;
+    
 }
 
-.navBarIcons{
+.navBarCenter{
+    flex: 5;
+    
+}
+
+
+.navBarCenter .navBarIcon{
+   display: flex;
+   align-items: center;
+   color: rgb(96, 96, 96);
+   gap: 4%;
+   justify-content: center;
+   
+   
+}
+
+.navBarCenter .navBarIcon .EachIcon{
+    cursor: pointer;
+    align-items: center;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    padding: 2% 4% 2% 4%;
+    border-radius: 10%;
+}
+
+.navBarCenter .navBarIcon .EachIcon:hover{
+    background-color: rgb(238, 238, 238);
+    
+    
+}
+
+.navBarRight{
+    flex: 4;
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    margin-left: 20px;
+    margin-right: 1.5%;
+    background-color: blueviolet;
+    gap: 2%;
+    left: 0;
 }
 
-.navBarIcon{
-   margin-left: 10px; 
+/* .navBarRight .navBarIcons{
+    color: rgb(96, 96, 96);
+    display: flex;
+    gap: 10%;
+}
+ */
+.navBarRight .navBarIcon{
+    display: flex;
+    color: rgb(96, 96, 96);
+    
 }
 
 /* .navBarIcon span{
     position: relative;
 } */
+
+.navBarRight .navBarIcon .EachIcon{
+    
+    padding: 2% 4% 2% 4%;
+}
+
+
+
+.profilePicImg{
+    width: 39px;
+    height: 39px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin: 1% 1% 1% 1%;
+    
+    
+}
 
 .navBarLinks{
     margin-left: 10px;
