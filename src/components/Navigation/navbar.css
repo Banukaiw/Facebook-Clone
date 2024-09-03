@@ -6,7 +6,7 @@
     align-items: center;
     position: sticky;
     top: 0;
-    padding: 0% 0% 0% 0%;
+    
     
     
 }
@@ -15,8 +15,7 @@
     width: 40px;
     height: auto;
     object-fit: cover;
-    border-radius: 50%;
-    
+    border-radius: 50%; 
 }
 
 
@@ -107,9 +106,10 @@
     display: flex;
     align-items: center;
     margin-right: 1.5%;
-    background-color: blueviolet;
-    gap: 2%;
-    left: 0;
+    gap: 4%;
+    position: relative;
+    
+    justify-content: end;
 }
 
 /* .navBarRight .navBarIcons{
@@ -120,7 +120,10 @@
  */
 .navBarRight .navBarIcon{
     display: flex;
-    color: rgb(96, 96, 96);
+    margin: 0% 4% 0% 0%;
+    color: rgb(0, 0, 0);
+    
+
     
 }
 
@@ -129,20 +132,31 @@
 } */
 
 .navBarRight .navBarIcon .EachIcon{
-    
-    padding: 2% 4% 2% 4%;
+    right: 0;
+    padding: 3% 4% 2% 4%;
+    margin-left: 11px;
+    border-radius: 50%;
+    background-color: rgb(238, 238, 238);
+    align-items: center;
+    justify-content: center;
 }
 
+.navBarRight .navBarIcon .EachIcon:hover{
+    background-color: rgb(238, 238, 238);
+    
+    
+}
 
+.pic{
+    margin: 1% 0% 1% 0%; 
+    align-items: center;
+}
 
 .profilePicImg{
     width: 39px;
     height: 39px;
     object-fit: cover;
     border-radius: 50%;
-    margin: 1% 1% 1% 1%;
-    
-    
 }
 
 .navBarLinks{

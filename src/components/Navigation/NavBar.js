@@ -28,11 +28,11 @@ export default function NavBar() {
 
         <div className="navBarCenter">
             <div className="navBarIcon">
-                        <div className="EachIcon"><HomeOutlinedIcon sx={{ fontSize: 35 }} /> </div>
-                        <div className="EachIcon"><OndemandVideoOutlinedIcon sx={{ fontSize: 35 }} /></div>
-                        <div className="EachIcon"><StorefrontOutlinedIcon sx={{ fontSize: 35 }} /></div>
-                        <div className="EachIcon"><GroupsOutlinedIcon sx={{ fontSize: 35 }} /></div>
-                        <div className="EachIcon"><VideogameAssetOutlinedIcon sx={{ fontSize: 35 }} /></div>
+                        <div className="EachIcon"><HomeOutlinedIcon sx={{ fontSize: 32 }} /> </div>
+                        <div className="EachIcon"><OndemandVideoOutlinedIcon sx={{ fontSize: 32 }} /></div>
+                        <div className="EachIcon"><StorefrontOutlinedIcon sx={{ fontSize: 32 }} /></div>
+                        <div className="EachIcon"><GroupsOutlinedIcon sx={{ fontSize: 32 }} /></div>
+                        <div className="EachIcon"><VideogameAssetOutlinedIcon sx={{ fontSize: 32 }} /></div>
     
             </div>
        </div>
@@ -41,13 +41,13 @@ export default function NavBar() {
         <div className="navBarRight">                     
                 <div className="navBarIcon">                 
                     <div className="EachIcon">
-                     <WidgetsOutlinedIcon  sx={{ fontSize: 35 }}/>
+                     <WidgetsOutlinedIcon  sx={{ fontSize: 30 }}/>
                     </div>
                      <div className="EachIcon">
-                     <EmailOutlinedIcon  sx={{ fontSize: 35 }}/>  
+                     <EmailOutlinedIcon  sx={{ fontSize: 30 }}/>  
                     </div>
                      <div className="EachIcon">
-                     <NotificationsIcon  sx={{ fontSize: 35 }}/>
+                     <NotificationsIcon  sx={{ fontSize: 30 }}/>
                     </div>
                 </div>      
                 <div className="pic">
