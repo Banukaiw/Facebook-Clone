@@ -10,6 +10,7 @@ import SportsEsportsIcon from '@mui/icons-material/SportsEsports';
 import NewspaperIcon from '@mui/icons-material/Newspaper';
 import WorkOutlineIcon from '@mui/icons-material/WorkOutline';
 import AddShoppingCartIcon from '@mui/icons-material/AddShoppingCart';
+import KeyboardArrowDownIcon from '@mui/icons-material/KeyboardArrowDown';
 
 
 export default function LeftPane() {
@@ -61,15 +62,19 @@ export default function LeftPane() {
                     <AddShoppingCartIcon sx={{ fontSize: 30 }} className='leftpaemenuIcon'/>
                     <span className='leftpaemenutext'>Market</span>
                 </li>
+
+                <li className='leftPaneMenuItemLast'>
+                    <KeyboardArrowDownIcon sx={{ fontSize: 30 }} className='leftpaemenuIcon'/>
+                    <span className='leftpaemenutext'>See More</span>
+                </li>
+                <li className='leftPaneMenuItemLast'>
+                    <KeyboardArrowDownIcon sx={{ fontSize: 30 }} className='leftpaemenuIcon'/>
+                    <span className='leftpaemenutext'>See More</span>
+                </li>
                 <hr/>
 
-                <div className="pagesyouliked">
-                  <h3>Pages You Liked</h3>
-                </div>
-                <li className="pagelistItem">
-                  <img src="/images/1.jpg" alt="" className="pagepic" />
-                  <span className='PageName'>Code With Baka</span>
-                </li>
+                
+                
             </div>
         </div>
     </div>
