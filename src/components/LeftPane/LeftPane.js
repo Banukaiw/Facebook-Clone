@@ -18,43 +18,47 @@ export default function LeftPane() {
         <div className="leftpanecontainer">
             <div className="leftpanemenu">
                 <li className='leftPaneMenuItem'>
-                    <MarkUnreadChatAltIcon className='leftpaemenuIcon'/>
-                    <span className='leftpaemenutext'>Messages</span>
+                    <img src='/images/1.jpg' className='leftLogo'></img>
+                    <span className='leftpaemenutext'>Banuka Ishara</span>
                 </li>
                 <li className='leftPaneMenuItem'>
-                    <GroupIcon className='leftpaemenuIcon'/>
+                    <MarkUnreadChatAltIcon sx={{ fontSize: 30 }} color="blue" className='leftpaemenuIcon'/>
+                    <span className='leftpaemenutext'>Messages</span>
+                </li>
+                <li className='leftPaneMenuItem' >
+                    <GroupIcon sx={{ fontSize: 30 }} className='leftpaemenuIcon'/>
                     <span className='leftpaemenutext'>Groups</span>
                 </li>
                 <li className='leftPaneMenuItem'>
-                    <RssFeedIcon className='leftpaemenuIcon'/>
+                    <RssFeedIcon sx={{ fontSize: 30 }} className='leftpaemenuIcon'/>
                     <span className='leftpaemenutext'>Feeds</span>
                 </li>
                 <li className='leftPaneMenuItem'>
-                    <FlagIcon className='leftpaemenuIcon'/>
+                    <FlagIcon sx={{ fontSize: 30 }} className='leftpaemenuIcon'/>
                     <span className='leftpaemenutext'>Pages</span>
                 </li>
                 <li className='leftPaneMenuItem'>
-                    <CalendarMonthIcon className='leftpaemenuIcon'/>
+                    <CalendarMonthIcon sx={{ fontSize: 30 }} className='leftpaemenuIcon'/>
                     <span className='leftpaemenutext'>Events</span>
                 </li>
                 <li className='leftPaneMenuItem'>
-                    <BuildIcon className='leftpaemenuIcon'/>
+                    <BuildIcon sx={{ fontSize: 30 }} className='leftpaemenuIcon'/>
                     <span className='leftpaemenutext'>Settings</span>
                 </li>
                 <li className='leftPaneMenuItem'>
-                    <SportsEsportsIcon className='leftpaemenuIcon'/>
+                    <SportsEsportsIcon sx={{ fontSize: 30 }} className='leftpaemenuIcon'/>
                     <span className='leftpaemenutext'>Games</span>
                 </li>
                 <li className='leftPaneMenuItem'>
-                    <NewspaperIcon className='leftpaemenuIcon'/>
+                    <NewspaperIcon sx={{ fontSize: 30 }} className='leftpaemenuIcon'/>
                     <span className='leftpaemenutext'>News</span>
                 </li>
                 <li className='leftPaneMenuItem'>
-                    <WorkOutlineIcon className='leftpaemenuIcon'/>
+                    <WorkOutlineIcon sx={{ fontSize: 30 }} className='leftpaemenuIcon'/>
                     <span className='leftpaemenutext'>Jobs</span>
                 </li>
                 <li className='leftPaneMenuItem'>
-                    <AddShoppingCartIcon className='leftpaemenuIcon'/>
+                    <AddShoppingCartIcon sx={{ fontSize: 30 }} className='leftpaemenuIcon'/>
                     <span className='leftpaemenutext'>Market</span>
                 </li>
                 <hr/>
