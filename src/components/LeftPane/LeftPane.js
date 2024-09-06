@@ -67,11 +67,11 @@ export default function LeftPane() {
                     <KeyboardArrowDownIcon sx={{ fontSize: 30 }} className='leftpaemenuIcon'/>
                     <span className='leftpaemenutext'>See More</span>
                 </li>
-                <li className='leftPaneMenuItemLast'>
-                    <KeyboardArrowDownIcon sx={{ fontSize: 30 }} className='leftpaemenuIcon'/>
-                    <span className='leftpaemenutext'>See More</span>
-                </li>
+
                 <hr/>
+                <div className='lefttext2'>
+                    <h3>Your Shortcuts</h3>
+                </div>
 
                 
                 

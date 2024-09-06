@@ -7,9 +7,7 @@
     align-items: center;
     position: sticky;
     top: 0;
-    
-    
-    
+  
 }
 
 .logoIcon img{
@@ -25,8 +23,8 @@
     flex: 3;
     display: flex;
     align-items: center;
-    gap: 2%;
-    margin-left: 1.5%;
+    gap: 4%;
+    margin-left: 2%;
     
 }
 
@@ -56,6 +54,7 @@
 
 .searchBarBox .searchIcon{
     margin-left: 10px;
+    color: gray;
 }
 
 .searchInput{
@@ -83,6 +82,7 @@
    color: rgb(96, 96, 96);
    gap: 4%;
    justify-content: center;
+   position: relative;
    
    
 }
@@ -90,97 +90,157 @@
 .navBarCenter .navBarIcon .EachIcon{
     cursor: pointer;
     align-items: center;
-    margin-top: 1%;
-    margin-bottom: 1%;
     padding: 2% 4% 2% 4%;
     border-radius: 10%;
+    position: relative;
 }
 
 .navBarCenter .navBarIcon .EachIcon:hover{
     background-color: rgb(238, 238, 238);
-    
-    
+     
 }
+
+.navBarCenter .navBarIcon .EachIcon::after{
+    content: attr(data-tooltip);
+    position: absolute;
+    bottom: -30px;
+    left: 50%;
+    transform: translateX(-50%);
+    opacity: 0;
+    visibility: hidden;
+}
+
+.navBarCenter .navBarIcon .EachIcon:hover::after{
+    opacity: 1;
+    visibility: visible;
+}
+
+
 
 .navBarRight{
-    flex: 4;
+    flex: 3.5;
     display: flex;
     align-items: center;
-    margin-right: 1.5%;
-    gap: 4%;
-    position: relative;
-    
     justify-content: end;
+    margin-right: 2%;
 }
 
-/* .navBarRight .navBarIcons{
-    color: rgb(96, 96, 96);
-    display: flex;
-    gap: 10%;
-}
- */
 .navBarRight .navBarIcon{
     display: flex;
-    margin: 0% 4% 0% 0%;
     color: rgb(0, 0, 0);
-    
-
-    
+    align-items: center;
+    gap: 4%;
+    padding: 5px;
+    position: relative;
+ 
 }
 
-/* .navBarIcon span{
-    position: relative;
-} */
 
 .navBarRight .navBarIcon .EachIcon{
-    right: 0;
-    padding: 3% 4% 2% 4%;
-    margin-left: 11px;
+    display: flex;
     border-radius: 50%;
     background-color: rgb(231, 231, 231);
     align-items: center;
     justify-content: center;
+    padding: 5px;
+    position: relative;
+    cursor: pointer;
 }
 
 .navBarRight .navBarIcon .EachIcon:hover{
     background-color: rgb(238, 238, 238);
-    
-    
 }
 
-.pic{
-    margin: 1% 0% 1% 0%; 
+.navBarRight .navBarIcon .EachIcon::after {
+    content: attr(data-tooltip); /* Use data attribute to get tooltip text */
+    position: absolute;
+    bottom: -39px; /* Position it below the icon */
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: black;
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 12px;
+    white-space: nowrap;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.3s, visibility 0.3s;
+    z-index: 10; /* Ensure tooltip appears above other elements */
+}
+
+.navBarRight .navBarIcon .EachIcon:hover::after {
+    opacity: 1;
+    visibility: visible;
+}
+
+.navBarRight .navBarIcon .pic{
+    display: flex;
+    justify-content: center;
     align-items: center;
+    
 }
 
-.profilePicImg{
+.navBarRight .navBarIcon .pic .profilePicImg{
     width: 39px;
     height: 39px;
     object-fit: cover;
     border-radius: 50%;
 }
 
-.navBarLinks{
-    margin-left: 10px;
-    font-size: 20px;
-    font-weight: bold;
-    cursor: pointer;
-    
+
+@media only screen and (max-width:700px){
+    .navBarCenter{
+        display: none;
+        
+    }
 }
 
-.navbarlink{
-    gap: 20px;
-    margin-top: 20px;
+
+@media only screen and (max-width:850px){
+    .searchBarBox{
+        width: 42px;
+        align-items: center;
+        margin-bottom: 1px;
+    }
+
+    .searchInput{
+        display: none; 
+    }
+
+    .profilePicImg{
+        width: 40px;
+        height: 40px;
+        
+        border-radius: 50%;
+    }
+
+    .navBarRight{
+        flex: 4;
+        display: flex;
+        align-items: center;
+        position: relative;
+        justify-content: center;
+    }
+
+    .navBarRight .navBarIcon{
+        display: flex;
+        
+        color: rgb(0, 0, 0);
+      
+    }
+     
 }
 
-.iconTag{
-    width: 15px;
-    height: 15px;
-    background-color: red;
-    color: white;
-    position: absolute;
-    border-radius: 50%;
-    top: -5px;
-    justify-content: center;
 
+@media only screen and (max-width:1050px){
+    .searchBarBox{
+        width: 42px;
+        align-items: center;
+        margin-bottom: 1px;
+    }
+
+    .searchInput{
+        display: none; 
+    }
 }
