@@ -2,3 +2,10 @@
     background-color: #f1f2f6;
     flex: 3;
 }
+
+@media only screen and (max-width:900px){
+    .rightpanebox{
+        display: none;
+    }
+    
+}

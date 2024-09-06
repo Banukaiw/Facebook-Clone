@@ -28,7 +28,7 @@ export default function NavBar() {
 
         <div className="navBarCenter">
             <div className="navBarIcon">
-                        <div className="EachIcon"><HomeOutlinedIcon sx={{ fontSize: 32 }} /> </div>
+                        <div className="EachIcon" data-tooltip="Widgets"><HomeOutlinedIcon sx={{ fontSize: 32 }} /> </div>
                         <div className="EachIcon"><OndemandVideoOutlinedIcon sx={{ fontSize: 32 }} /></div>
                         <div className="EachIcon"><StorefrontOutlinedIcon sx={{ fontSize: 32 }} /></div>
                         <div className="EachIcon"><GroupsOutlinedIcon sx={{ fontSize: 32 }} /></div>
@@ -40,19 +40,20 @@ export default function NavBar() {
 
         <div className="navBarRight">                     
                 <div className="navBarIcon">                 
-                    <div className="EachIcon">
+                    <div className="EachIcon" data-tooltip="Widgets">
                      <WidgetsOutlinedIcon  sx={{ fontSize: 30 }}/>
                     </div>
-                     <div className="EachIcon">
+                     <div className="EachIcon" data-tooltip="Email">
                      <EmailOutlinedIcon  sx={{ fontSize: 30 }}/>  
                     </div>
-                     <div className="EachIcon">
+                     <div className="EachIcon" data-tooltip="Notifications">
                      <NotificationsIcon  sx={{ fontSize: 30 }}/>
                     </div>
-                </div>      
-                <div className="pic">
+                    <div className="pic">
                     <img src="/images/1.jpg" alt="" className="profilePicImg" />
-                </div> 
+                    </div> 
+                </div>      
+                
         </div>
     </div>
   )
