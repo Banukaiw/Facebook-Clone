@@ -1,7 +1,55 @@
 .rightpanebox{
     background-color: #f1f2f6;
-    flex: 3;
+    flex: 2;
+    height: calc(100vh - 50px);
+    overflow-y: scroll;
+    
 }
+.rightpanebox .contactSide{
+    margin-top: 6%;
+}
+
+.rightpanebox .contactText1{
+    display: flex;
+    padding: 0% 0% 3% 0%;
+    font-weight: 700;
+    font-size: 18px;
+    justify-content: space-between;
+    color: rgb(70, 70, 70);
+    
+}
+
+.rightpanebox .contactText1 .ContactIcon1{
+    display: flex;
+    padding: 0px 10px 0px 0px;
+    gap: 4%;
+}
+
+.rightpanebox .ContactList{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    
+    
+}
+
+.rightpanebox .ContactList .Contacts{
+    align-items: center;
+    display: flex;
+    margin-bottom: 1px;
+    margin-right: 1px;
+    padding: 9px 4px;
+    
+}
+
+.rightpanebox .ContactList .Contacts:hover{
+    
+    margin-bottom: 1px;
+    padding: 9px 4px;
+    background-color: aqua;
+    border-radius: 10px;
+}
+
 
 @media only screen and (max-width:900px){
     .rightpanebox{

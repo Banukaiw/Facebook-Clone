@@ -18,7 +18,7 @@ export default function LeftPane() {
     <div className='leftpanebox'>
         <div className="leftpanecontainer">
             <div className="leftpanemenu">
-                <li className='leftPaneMenuItem'>
+                <li className='leftPaneMenuItem1'>
                     <img src='/images/1.jpg' className='leftLogo'></img>
                     <span className='leftpaemenutext'>Banuka Ishara</span>
                 </li>
@@ -69,6 +69,12 @@ export default function LeftPane() {
                 </li>
 
                 <hr/>
+                <div className='lefttext2'>
+                    <h3>Your Shortcuts</h3>
+                </div>
+                <div className='lefttext2'>
+                    <h3>Your Shortcuts</h3>
+                </div>
                 <div className='lefttext2'>
                     <h3>Your Shortcuts</h3>
                 </div>
