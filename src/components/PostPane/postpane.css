@@ -5,11 +5,39 @@
     
 }
 
-.postpanebox{
+ .postpanebox{
     background-color: white;
     max-width: 600px;
     margin: 1% auto;
+} 
+
+.postpanebox1 .stories{
+    max-width: 600px;
+    margin: 1% auto;
+    display: flex;
+    width: 100%;
+    overflow-x: scroll;
+    
 }
+.postpanebox1 .stories .carts{
+    height: 240px;
+    min-width: 130px;
+    border-radius: 15px;
+    background-color: aqua;
+    padding: 5px;
+    margin: 5px;
+}
+
+.postpanebox1 .stories .carts .logo{
+    
+    
+}
+
+.postpanebox1 .stories .carts .logo .StoryLogo{
+    width: 32px;
+    height: 32px;
+}
+
 
 
 @media only screen and (max-width:900px){
