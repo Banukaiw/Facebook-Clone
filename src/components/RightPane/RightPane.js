@@ -77,6 +77,11 @@ export default function RightPane() {
           </li>
         </div>
         <hr/>
+
+        <div class="story">
+          <div class="story-image1"></div>
+          
+        </div>
         </div>
         
       </div>
