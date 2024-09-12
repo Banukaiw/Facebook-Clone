@@ -26,6 +26,7 @@ export default function PostPane() {
           </div>
           <div className="storyname">Rishi Bro</div>
         </div>
+        <div></div>
 
         <div className="carts">
           <div className="logo">
@@ -51,7 +52,7 @@ export default function PostPane() {
         </div>
         <div class="story">
           <div class="story-profile">
-            <img src="profile1.jpg" alt="Profile Picture"></img>
+            <img src="profile1.jpg" alt="ProfilePicture"></img>
           </div>
           <div class="story-content">
             <img src="story1.jpg" alt="Story"></img>
@@ -60,7 +61,7 @@ export default function PostPane() {
         </div>
         <div class="story">
           <div class="story-profile">
-            <img src="profile2.jpg" alt="Profile Picture"></img>
+            <img src="profile2.jpg" alt="ProfilePicture"></img>
           </div>
           <div class="story-content">
             <img src="story2.jpg" alt="Story"></img>
@@ -69,7 +70,7 @@ export default function PostPane() {
         </div>
         <div class="story">
           <div class="story-profile">
-            <img src="profile3.jpg" alt="Profile Picture"></img>
+            <img src="profile3.jpg" alt="ProfilePicture"></img>
           </div>
           <div class="story-content">
             <img src="story3.jpg" alt="Story"></img>
