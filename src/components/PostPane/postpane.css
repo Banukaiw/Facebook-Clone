@@ -86,6 +86,9 @@ body {
     overflow: hidden;
     box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
   }
+
+
+  
   
 .create-story {
     display: flex;
@@ -94,7 +97,11 @@ body {
     flex-direction: column;
     background-color: #e4e6eb;
     cursor: pointer;
-  }
+}
+
+
+
+
   
 .story-image {
     width: 100%;
@@ -103,7 +110,8 @@ body {
     background: url('/public/images/1.jpg') center center / cover no-repeat;
     border-bottom: 1px solid #ddd;
 }
-  
+
+
 .story-text {
     padding: 5px;
     font-size: 14px;
@@ -143,17 +151,137 @@ body {
     object-fit: cover;
 }
   
-  .story-name {
+.story-name {
     position: absolute;
     bottom: 5px;
     left: 10px;
     color: white;
     font-size: 12px;
     text-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
-  }
-   
+}
+
+/* /////////////////////////////////////////////////////// */
+
+.StorySection{
+    max-width: 600px;
+    display: flex;
+    overflow-x: auto;
+    padding: 10px;
+    background-color: #f0f2f5;
+    margin: 1% auto;
+}
+
+.Story{
+    margin: 5px;
+    width: 130px;
+    height: 230px;
+    background-color: white;
+    border-radius: 10px;
+    padding: 5px;
+    display: flex;
+    position: relative;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    cursor: pointer;
+    
+}
+
+.Storyimage{
+    width: 100%;
+    height: 80%;
+    border-radius: 10px;
+    background: url('/public/images/2.jpg') center center / cover no-repeat;
+    border-bottom: 1px solid #ddd;
+}
+
+.CreateText{
+    font-size: 15px;
+    
+  
+}
+
+.StoryFont{
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2px;
+    
+}
+
+.CreateButton{
+    color: white;
+    background-color: #2e89ff;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    font-size: 28px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 3px solid white;
+    cursor: pointer;
+    
+}
+
+.CreateButton:hover{
+    background-color: #1877f2;
+}
+
+.StorySection .Story .StoryProfile{
+    width: 35px;
+    height: 35px;
+    position: absolute;
+    overflow: hidden;
+    border-radius: 50%;
+    border: 3px solid #1877f2;
+    top: 10px;
+    left: 10px;
+    z-index: 3;
+}
+
+.StorySection .Story .StoryProfile img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.StorySection .Story .StoryContent{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.StorySection .Story .StoryContent img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+  
+.StorySection .Story .StoryName {
+    position: absolute;
+    bottom: 5px;
+    left: 10px;
+    color: white;
+    font-size: 13px;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
+}
 
 
+
+  
+
+  
 
 @media only screen and (max-width:900px){
     .postpanebox1{
