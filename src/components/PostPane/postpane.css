@@ -3,9 +3,10 @@
     height: 100vh;
     flex: 5;
     
+   
 }
 
- .postpanebox{
+/*  .postpanebox{
     background-color: white;
     max-width: 600px;
     margin: 1% auto;
@@ -56,14 +57,14 @@
     height: 32px;
 }
 
-
+ */
 
 body {
     font-family: Arial, sans-serif; 
   }
 
   
-.story-section {
+/* .story-section {
     max-width: 600px;
     display: flex;
     overflow-x: auto;
@@ -159,7 +160,7 @@ body {
     font-size: 12px;
     text-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
 }
-
+ */
 /* /////////////////////////////////////////////////////// */
 
 .StorySection{
@@ -173,8 +174,8 @@ body {
 
 .Story{
     margin: 5px;
-    width: 130px;
-    height: 230px;
+    min-width: 130px;
+    height: 235px;
     background-color: white;
     border-radius: 10px;
     padding: 5px;
@@ -182,7 +183,7 @@ body {
     position: relative;
     align-items: center;
     flex-direction: column;
-    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.1);
     overflow: hidden;
     cursor: pointer;
     
@@ -278,6 +279,69 @@ body {
 }
 
 
+.PostSection{
+    max-width: 600px;
+    margin: 1% auto;
+    border-radius: 10px;
+    background-color: white;
+}
+
+.PostSection .UpperPost{
+    background-color: white;
+    display: flex;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+    gap: 2%;
+    padding: 10px 0px 10px 0px;
+    
+}
+
+.PostSection .UpperPost .PostImage{
+    width: 40px;
+    height: 40px;
+    display: flex;
+    border-radius: 50%;
+    
+    
+}
+
+.PostSection .UpperPost .PostImage img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.PostSection .UpperPost .PostSearch{
+    background-color: rgb(255, 255, 255);
+    width: 500px;
+    height: 40px;
+    border-radius: 30%;
+    
+}
+
+.PostSection .UpperPost .PostSearch .PostSearch1{
+    border: none;
+    
+    width: 100%;
+    height: 100%;
+    background-color: rgb(238, 238, 238);
+    font-size: 17px;
+    border-radius: 30px;
+}
+
+.PostSection .UpperPost .PostSearch .PostSearch1:focus{
+    outline: none;
+    
+    
+}
+
+.PostSection .Posthr{
+    width: 92%;
+    display: flex;
+    margin: 0.3% auto;
+}
 
   
 
