@@ -6,162 +6,9 @@
    
 }
 
-/*  .postpanebox{
-    background-color: white;
-    max-width: 600px;
-    margin: 1% auto;
-} 
-
-.postpanebox1 .stories{
-    max-width: 600px;
-    margin: 1% auto;
-    display: flex;
-    width: 100%;
-    overflow-x: scroll;
-    
-}
-.postpanebox1 .stories .carts{
-    height: 240px;
-    min-width: 130px;
-    border-radius: 15px;
-    background-color: aqua;
-    padding: 5px;
-    margin: 5px;
-}
-
-.postpanebox1 .stories .carts1{
-    height: 240px;
-    min-width: 130px;
-    border-radius: 15px;
-    background: url('/public/images/1.jpg');
-    object-position: center;
-    padding: 5px;
-    margin: 5px;
-}
-
-.postpanebox1 .stories .carts .logo1{
-    width: 240px;
-    min-width: 130px;
-    
-}
-
-.postpanebox1 .stories .carts .logo1 .StoryLogo{
-  width: 100%;
-  height: 80%;
-  background: url('/public/images/1.jpg') center center / cover no-repeat;
-  border-bottom: 1px solid #ddd;
-}
-
-.postpanebox1 .stories .carts .logo .StoryLogo{
-    width: 32px;
-    height: 32px;
-}
-
- */
-
 body {
     font-family: Arial, sans-serif; 
   }
-
-  
-/* .story-section {
-    max-width: 600px;
-    display: flex;
-    overflow-x: auto;
-    padding: 10px;
-    background-color: #f0f2f5;
-    margin: 1% auto;
-  }
-  
-.story {
-    width: 130px;
-    height: 210px;
-    border-radius: 10px;
-    padding: 5px;
-    margin: 5px;
-    background-color: white;
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    overflow: hidden;
-    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
-  }
-
-
-  
-  
-.create-story {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    background-color: #e4e6eb;
-    cursor: pointer;
-}
-
-
-
-
-  
-.story-image {
-    width: 100%;
-    height: 100%;
-    border-radius: 10px;
-    background: url('/public/images/1.jpg') center center / cover no-repeat;
-    border-bottom: 1px solid #ddd;
-}
-
-
-.story-text {
-    padding: 5px;
-    font-size: 14px;
-    color: #65676b;
-}
-  
-.story-profile {
-    width: 35px;
-    height: 35px;
-    border-radius: 50%;
-    border: 3px solid #1877f2;
-    position: absolute;
-    top: 10px;
-    left: 10px;
-    overflow: hidden;
-}
-  
-.story-profile img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-}
-  
-.story-content {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-  
-.story-content img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-}
-  
-.story-name {
-    position: absolute;
-    bottom: 5px;
-    left: 10px;
-    color: white;
-    font-size: 12px;
-    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
-}
- */
-/* /////////////////////////////////////////////////////// */
 
 .StorySection{
     max-width: 600px;
@@ -284,6 +131,7 @@ body {
     margin: 1% auto;
     border-radius: 10px;
     background-color: white;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.1);
 }
 
 .PostSection .UpperPost{
@@ -293,17 +141,14 @@ body {
     align-items: center;
     justify-content: center;
     gap: 2%;
-    padding: 10px 0px 10px 0px;
-    
+    padding: 10px 0px 10px 0px;  
 }
 
 .PostSection .UpperPost .PostImage{
     width: 40px;
     height: 40px;
     display: flex;
-    border-radius: 50%;
-    
-    
+    border-radius: 50%; 
 }
 
 .PostSection .UpperPost .PostImage img{
@@ -323,7 +168,6 @@ body {
 
 .PostSection .UpperPost .PostSearch .PostSearch1{
     border: none;
-    
     width: 100%;
     height: 100%;
     background-color: rgb(238, 238, 238);
@@ -332,9 +176,7 @@ body {
 }
 
 .PostSection .UpperPost .PostSearch .PostSearch1:focus{
-    outline: none;
-    
-    
+    outline: none;   
 }
 
 .PostSection .Posthr{
@@ -343,9 +185,83 @@ body {
     margin: 0.3% auto;
 }
 
-  
+.PostSection .DownPost{
+    display: flex;
+    margin: 5px 10px 5px 10px;
+    justify-content: space-between;
+}
 
-  
+.PostSection .DownPost .video{
+    display: flex;
+    width: 180px;
+    margin: 5px;
+    padding: 5px;
+    align-items: center;
+    justify-content: center;
+    gap: 4%;
+    border-radius: 10px;
+    color: rgb(230, 56, 56);
+    
+    
+}
+
+.PostSection .DownPost .video:hover{
+    background-color: #e4e4e4;
+}
+.PostSection .DownPost .video p{
+    display: flex;
+    align-items: center;
+    gap: 2%;
+    color: rgb(0, 0, 0);
+}
+
+.PostSection .DownPost .Photo{
+    display: flex;
+    width: 180px;
+    margin: 5px;
+    padding: 5px;
+    align-items: center;
+    justify-content: center;
+    gap: 4%;
+    border-radius: 10px;
+    color: rgb(33, 161, 33);
+    
+}
+
+.PostSection .DownPost .Photo:hover{
+    background-color: #e4e4e4;
+}
+
+.PostSection .DownPost .Photo p{
+    display: flex;
+    align-items: center;
+    gap: 2%;
+    color: rgb(0, 0, 0);
+}
+
+.PostSection .DownPost .reel{
+    display: flex;
+    width: 180px;
+    margin: 5px;
+    padding: 5px;
+    align-items: center;
+    justify-content: center;
+    gap: 4%;
+    border-radius: 10px;
+    color: rgb(230, 56, 56);
+    
+}
+
+.PostSection .DownPost .reel:hover{
+    background-color: #e4e4e4;
+}
+
+.PostSection .DownPost .reel p{
+    display: flex;
+    align-items: center;
+    gap: 2%;
+    color: rgb(0, 0, 0);
+}
 
 @media only screen and (max-width:900px){
     .postpanebox1{
