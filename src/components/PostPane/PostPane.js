@@ -80,6 +80,7 @@ export default function PostPane() {
           <div className="reel">
             <MovieCreationIcon/>
             <p>Reels</p>
+            <div></div>
           </div>
         </div>
       </div>
