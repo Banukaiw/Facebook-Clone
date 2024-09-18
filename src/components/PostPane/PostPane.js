@@ -3,6 +3,9 @@ import "./postpane.css";
 import VideoCameraBackIcon from '@mui/icons-material/VideoCameraBack';
 import PhotoLibraryIcon from '@mui/icons-material/PhotoLibrary';
 import MovieCreationIcon from '@mui/icons-material/MovieCreation';
+import PublicIcon from '@mui/icons-material/Public';
+import MoreHorizIcon from '@mui/icons-material/MoreHoriz';
+import CloseIcon from '@mui/icons-material/Close';
 
 export default function PostPane() {
   return (
@@ -81,6 +84,30 @@ export default function PostPane() {
             <MovieCreationIcon/>
             <p>Reels</p>
             <div></div>
+          </div>
+        </div>
+      </div>
+
+      <div className="Posts">
+        <div className="PostUpper">
+          <div className="PostAccount">
+            <div className="PostImage">
+              <img src="./images/1.jpg" alt="Story"></img> 
+            </div>
+            <div className="AccountText">
+              <div className="AccountName">
+                <p>Watapita</p>
+                <h4>Follow</h4>
+              </div>
+              <div className="AccountTime">
+                <p>3 days ago</p>
+                <PublicIcon/>
+              </div>
+            </div>
+          </div>
+          <div className="PostIcon">
+              <MoreHorizIcon/>
+              <CloseIcon/>
           </div>
         </div>
       </div>
